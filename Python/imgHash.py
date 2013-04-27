@@ -26,7 +26,7 @@ def hamming(h1, h2):
         while d:
             h += 1
             d &= d - 1
-    return h
+        return h
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1 or len(sys.argv) > 3:
