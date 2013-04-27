@@ -24,8 +24,8 @@ def avhash(im):
 def hamming(h1, h2):
         h, d = 0, h1 ^ h2
         while d:
-        h += 1
-        d &= d - 1
+            h += 1
+            d &= d - 1
     return h
 
 if __name__ == '__main__':
