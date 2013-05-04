@@ -1,0 +1,5 @@
+PicLib 是用于aHash的测试，imgHash.py测试请用它
+
+pic1,pic2是用于pHash的测试的，test_image和test_mhimagehash测试请用它们
+
+yaoming.jpg和yaoming_m 在报告测试中有提及

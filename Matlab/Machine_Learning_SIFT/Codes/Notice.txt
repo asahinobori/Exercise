@@ -1,0 +1,14 @@
+imgHash.py 是Wote根据Neal Krawetz的aHash基本原理写的Python实现代码，运行前请安装配置好Python和PIL，在CMD(Linux下在终端)运行Python imgHash.py inputimg dir,第一个参数inputimg是输入的目标图片，第二参数是图片库地址
+
+pHash-0.9.6.tar.gz 是pHash库的源代码，编译前安装配置好相关依赖(见http://www.phash.org/)，编译成功后可以得到共享库文件(可用于编写自己的程序)，而且可以在example里运行测试程序测试pHash效果
+
+siftDemoV4.rar 是SIFT作者Lowe提供的测试程序，里面的siftWin32.exe在Windows下使用(sift在Linux下使用)，用于计算特征点数据(没有给出源代码)，其它C语言代码用于在Linux下生成match程序(建议使用make)，其它Matlab代码运行于Matlab中，注意是调用siftWin32.exe来计算的。详细可见README
+
+robwhess-opensift.rar 是Rob Hess编写的整套OpenSIFT库，里面的src就是源代码，include里有相应头文件，注意本库使用到OpenCV库和Gtk+库，在Linux下正确配置好环境后运行make即可编译源代码，生成可执行文件(在bin里)
+
+
+simplesift.rar 个人简化的SIFT实现代码,具体请参看里面的Notice.txt
+
+test-img/ 里面是报告中提及到的测试用的图片,具体请参看里面的Notice.txt
+
+bin/ 里面是以上源代码中需要编译才生成的可执行程序，这里本人编译出来，可以直接拿去根据报告运行测试
