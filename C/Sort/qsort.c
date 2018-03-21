@@ -36,7 +36,7 @@ int main(void) {
     quicksort(a, 0, n-1);
     int cl1 = clock();
     printf("time=%d\n", cl1-cl);
-    FILE *f = fopen("Data_sorted", "w");
+    FILE *f = fopen("Data_Sorted", "w");
     for (i = 0; i < n; i++)
         fprintf(f, "%d\n", a[i]);
     fclose(f);

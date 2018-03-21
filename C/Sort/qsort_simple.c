@@ -39,7 +39,7 @@ int main(void) {
     qsort(a, 0, n - 1);
     int c2 = clock();
     printf("time=%d\n", c2-c1);
-    FILE *f = fopen("Data_sorted", "w");
+    FILE *f = fopen("Data_Sorted", "w");
     for (i = 0; i < n; i++)
         fprintf(f, "%d\n", a[i]);
     fclose(f);
