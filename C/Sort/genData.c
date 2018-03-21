@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <time.h>
-main(){
+
+#define N 1000000
+int main(){
     int i;
-    int n = 100000;
     srand((int)time(0));
     FILE *f = fopen("Data", "w");
-    for (i = 0; i < 100000; i++)
+    for (i = 0; i < N; i++)
         fprintf(f, "%d\n", rand());
+    return 0;
 }
 
 
