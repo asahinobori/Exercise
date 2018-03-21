@@ -17,10 +17,10 @@ int cmp(const void* a, const void* b) {
 int main(void) {
     unsigned int a[1000000] = { 0 };
     int i;
-    FILE* fp = fopen("./ra", "r");
-    FILE* fp2 = fopen("./raSorted", "w");
+    FILE* fp = fopen("./Data", "r");
+    FILE* fp2 = fopen("./Data_Sorted", "w");
     if (NULL == fp) {
-        printf("open ra file error\n");
+        printf("open Data file error\n");
         return -1;
     }
     for (i = 0; i < 1000000; i++) {
@@ -35,6 +35,6 @@ int main(void) {
         fprintf(fp2, "%u\n", a[i]);
     }
     fclose(fp2);
-    printf("data update to raSorted\n");
+    printf("data update to Data_Sorted\n");
     return 0;
 }
