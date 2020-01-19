@@ -8,7 +8,7 @@ long num = 0;
 std::mutex num_mutex1;
 std::mutex num_mutex2;
 
-const int loopTime 1000000
+const int loopTime = 1000000;
 
 void numplus() {
     std::cout << "plus" << std::endl;
