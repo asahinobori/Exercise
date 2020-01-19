@@ -1,4 +1,4 @@
-// compile: g++ -o deadLock -pthread deadLock.cpp
+// compile: g++ -o deadLock -std=c++11 -pthread deadLock.cpp
 
 #include <iostream>
 #include <mutex>
